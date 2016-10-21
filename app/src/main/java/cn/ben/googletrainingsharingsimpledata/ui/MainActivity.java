@@ -1,4 +1,4 @@
-package cn.ben.googletrainingsharingsimpledata;
+package cn.ben.googletrainingsharingsimpledata.ui;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -11,6 +11,7 @@ import android.view.View;
 import java.io.File;
 import java.util.ArrayList;
 
+import cn.ben.googletrainingsharingsimpledata.R;
 import cn.ben.googletrainingsharingsimpledata.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
             sendMultiple();
         }
     };
+    public View.OnClickListener startShareActionActivityOnClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            startShareActionActivity();
+        }
+    };
+
+    private void startShareActionActivity() {
+        startActivity(new Intent(this, ShareActionActivity.class));
+    }
 
     private void sendMultiple() {
         ArrayList<Uri> imageUris = new ArrayList<>();

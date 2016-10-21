@@ -4,4 +4,6 @@
     <string name="send_to">Send to:</string>
     <string name="send_binary_content">send binary content</string>
     <string name="send_multiple_pieces_of_content">send multiple pieces of content</string>
+    <string name="share">Share</string>
+    <string name="start_share_action_activity">start share action activity</string>
 </resources>
