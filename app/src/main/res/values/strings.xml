@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoogleTrainingSharingSimpleData</string>
+    <string name="send_text_content">Send Text Content</string>
+    <string name="send_to">Send to:</string>
+    <string name="send_binary_content">send binary content</string>
+    <string name="send_multiple_pieces_of_content">send multiple pieces of content</string>
+</resources>
